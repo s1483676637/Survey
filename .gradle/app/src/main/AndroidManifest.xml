@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mg.studio.android.survey">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SvyU"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AutoGen"></activity>
+        <activity android:name=".Survey_report" />
+        <activity android:name=".Fin" />
+        <activity android:name=".Q_twelve" />
+        <activity android:name=".Q_eleven" />
+        <activity android:name=".Q_ten" />
+        <activity android:name=".Q_nine" />
+        <activity android:name=".Q_eight" />
+        <activity android:name=".Q_seven" />
+        <activity android:name=".Q_six" />
+        <activity android:name=".Q_five" />
+        <activity android:name=".Q_four" />
+        <activity android:name=".Q_three" />
+        <activity android:name=".Q_two" />
+        <activity android:name=".Q_one" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

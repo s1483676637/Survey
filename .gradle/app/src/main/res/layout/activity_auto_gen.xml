@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AutoGen"
+    android:id="@+id/rel_autogen">
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="READ JSON"
+        />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorAccent"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="SAVE RESULT"
+        />
+    <TextView
+        android:id="@+id/que1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text=""
+        />
+    <RadioButton
+        android:id="@+id/q1r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/que1"
+        android:visibility="invisible"
+        />
+    <RadioButton
+        android:id="@+id/q1r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/q1r1"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/que2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text=""
+        android:layout_below="@id/q1r2"
+        />
+
+
+    <RadioButton
+        android:id="@+id/q2r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/que2"
+        android:visibility="invisible"
+        />
+    <RadioButton
+        android:id="@+id/q2r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/q2r1"
+        android:visibility="invisible"
+        />
+    <RadioButton
+        android:id="@+id/q2r3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/q2r2"
+        android:visibility="invisible"
+        />
+    <RadioButton
+        android:id="@+id/q2r4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/q2r3"
+        android:visibility="invisible"
+        />
+    <RadioButton
+        android:id="@+id/q2r5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/q2r4"
+        android:visibility="invisible"
+        />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
