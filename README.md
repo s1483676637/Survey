@@ -1,3 +1,4 @@
+![image](https://github.com/s1483676637/survey/icon launcher.jpg)
 # Program description
 The user can create a survey and generate a qr code on the server. 
 
@@ -5,7 +6,7 @@ The user can receive the survey and fill it out according to the qr code and the
 
 Rendering: process.gif
 
-![image](https://github.com/s1483676637/survey/blob/master/process.gif)
+![image](https://github.com/s1483676637/survey/process.gif)
 
 # Program function(completed)
 1.Online survey generation
