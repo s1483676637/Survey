@@ -5,7 +5,7 @@ The user can receive the survey and fill it out according to the qr code and the
 
 Rendering: process.gif
 
-![image](https://github.com/FBl-OD/survey/blob/master/process.gif)
+![image](https://github.com/s1483676637/survey/blob/master/process.gif)
 
 # Program function(completed)
 1.Online survey generation
