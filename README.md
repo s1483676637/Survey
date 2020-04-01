@@ -1,3 +1,4 @@
+![image](https://github.com/s1483676637/survey/blob/master/icon.jpg)
 # Program description
 The user can create a survey and generate a qr code on the server. 
 
